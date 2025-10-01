@@ -1,2 +1,2 @@
 # PraktikumDaspro
-Learning
+Hello Github, im  a new learner
