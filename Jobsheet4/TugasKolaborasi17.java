@@ -5,7 +5,6 @@ public class TugasKolaborasi17{
         System.out.println("COba pull  ");
 =======
         System.out.println("COba pull");
-        System.out.println("Aku weelyst");
 >>>>>>> c9b09e7211093eb379c2b199dac0cdfe802351dc
     }
 }
