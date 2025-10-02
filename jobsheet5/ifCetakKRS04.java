@@ -8,9 +8,12 @@ public class ifCetakKRS04 {
 
         if (uktLunas) {
             System.out.println("Pembayaran Terverifikasi");
-            System.out.println("Silahkan cetak KRS0 dan minta Tanda tangan");
+            System.out.println("Silahkan cetak KRS dan minta Tanda tangan DPA");
         }
-        
+        else{
+            System.out.println("Registrasi Ditolak, Silahkan lakukan pembayaran terlebih dahulu");
+        }
+
         
     }
 }
