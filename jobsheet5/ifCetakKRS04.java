@@ -1,6 +1,6 @@
 package jobsheet5;
 import java.util.Scanner;
-public class ifCetakKRS17{
+public class ifCetakKRS04{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("--- Cetak KRS SIAKAD ---");
