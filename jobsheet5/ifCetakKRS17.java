@@ -14,7 +14,7 @@ public class ifCetakKRS17{
         }
         else{
             System.out.println("Pembayaran UKT belum terverifikasi");
-            System.out.println("Silahkan coba lagi");
+            System.out.println("Silahkan coba lagi ");
         }
     }
 }
