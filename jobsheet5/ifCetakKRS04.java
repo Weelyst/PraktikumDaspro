@@ -11,7 +11,7 @@ public class ifCetakKRS04 {
             System.out.println("Silahkan cetak KRS dan minta Tanda tangan DPA");
         }
         else{
-            System.out.println("Registrasi Ditolak, Silahkan lakukan pembayaran terlebih dahulu");
+            System.out.println("Registrasi Ditolak, Silahkan lakukan pembayaran terlebih dahulu ya");
         }
 
         
