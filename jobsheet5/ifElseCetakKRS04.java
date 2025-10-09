@@ -23,10 +23,8 @@ public class ifElseCetakKRS04{
         } else if (semester == 8) {
             System.out.println("KRS Semester 8 ditampilkan");
         } else {
-            // Blok ELSE bertindak seperti blok DEFAULT pada SWITCH
             System.out.println("Semester tidak valid");
         }
-
         sc.close();
     }
 }
