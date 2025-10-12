@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class switchCetakKRS04 {
+    //ini percobaan 2 yang benar
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("--- Cetak KRS SIAKAD");
