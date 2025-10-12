@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class ifElseCetakKRS04{
+    //comment percobaan 2
     public static void main(String[] args) {
         Scanner sc = new  Scanner(System.in);
         System.out.println("Cetak KRS SIAKAD");
