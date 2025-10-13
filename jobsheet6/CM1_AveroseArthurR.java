@@ -88,8 +88,8 @@ public class CM1_AveroseArthurR {
         System.out.println(nim);
         System.out.println("Mata Kuliah \t\t UTS \t UAS \t Tugas \t Nilai Akhir \t Nilai Huruf \t Status");
         System.out.println("----------------------------------------------------------------------------------------------------");
-        System.out.println ("Algoritma pemograman\t "+ NilaiUts1  +"\t\t" + NilaiUas1 + "\t\t" + NilaiTugas1 + "\t" + NilaiAkhir1 + "\t\t" + Huruf1 + "\t" + Status1);
-        System.out.println("Struktur Data\t\t "+ NilaiUts2 + "\t\t" + NilaiUas2 + "\t\t" + NilaiTugas2 + "\t" + NilaiAkhir2 + "\t\t" + Huruf2 + "\t" + Status2);
+        System.out.println ("Algoritma pemograman\t "+ NilaiUts1  +"\t" + NilaiUas1 + "\t" + NilaiTugas1 + "\t" + NilaiAkhir1 + "\t\t" + Huruf1 + "\t\tt" + Status1);
+        System.out.println("Struktur Data\t\t "+ NilaiUts2 + "\t" + NilaiUas2 + "\t" + NilaiTugas2 + "\t" + NilaiAkhir2 + "\t\t" + Huruf2 + "\t\t" + Status2);
 
         if (NilaiAkhir1 >= 60 && NilaiAkhir2 >= 60) {
             StatusSemester = "LULUS";
