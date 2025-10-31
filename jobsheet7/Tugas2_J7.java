@@ -25,7 +25,7 @@ public class Tugas2_J7 {
                 System.out.println("Transaksi dibatalkan.");
                 break;
             }
-            System.out.print("Masukkan lama waktu parkir: ");
+            System.out.print("Masukkan lama waktu parkir(JAM): ");
             waktu = input.nextInt();
             int tariftotal;
             tariftotal = waktu * tarif;
