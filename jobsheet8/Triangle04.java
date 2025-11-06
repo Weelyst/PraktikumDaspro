@@ -12,7 +12,7 @@ public class Triangle04 {
             System.out.print("*");
             j++;
         }
-       
+        System.out.println();
         i++;
     }
         
