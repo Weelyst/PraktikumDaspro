@@ -27,7 +27,7 @@ public class NilaiKelompok04 {
             
         }
         
-        //sudah termodifikasi lupa commit 
+        //sudah termodifikasi lupa committ tttt
     }
     
 }
