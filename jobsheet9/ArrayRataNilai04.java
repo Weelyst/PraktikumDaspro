@@ -2,7 +2,6 @@ package jobsheet9;
 import java.util.Scanner;
 public class ArrayRataNilai04 {
     public static void main(String[] args) {
-        int[] nilaiMhs = new int [10];
         Scanner sc = new Scanner(System.in);
         double totallus = 0;
         double totalnolus = 0;
@@ -13,9 +12,15 @@ public class ArrayRataNilai04 {
         int totlulus = 0;
         int totnolulus = 0;
 
-        for (int i = 0; i <nilaiMhs.length; i++){
+        System.out.print("Masukkan jumlah mahasiswa: ");
+        int jumlah = sc.nextInt();
+
+        int[] nilaiMhs = new int[jumlah];
+
+        for (int i = 0; i <jumlah; i++){
             System.out.print("Masukkan nilai mahasiswa ke-" + (i+1) +" : ");
             nilaiMhs[i] = sc.nextInt();
+
             if (nilaiMhs[i] > 70){
                 totallus += nilaiMhs[i];
                 totlulus++;
