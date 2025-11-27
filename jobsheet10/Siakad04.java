@@ -3,11 +3,19 @@ import java.util.Scanner;
 
 public class Siakad04 {
     public static void main(String[] args) {
-         Scanner input = new Scanner(System.in);
+       Scanner input = new Scanner(System.in);
 
-        int [][] nilai = new int[4][3];
+        System.out.println("============================");
+        System.out.println("input nilai mahasiswa");
+        System.out.println("============================");
+        System.out.print("Masukkan jumlah mahasiswa: ");
+        int mhs = input.nextInt();
+        System.out.print("Masukkan jumlah mata kuliah: ");
+        int matkul = input.nextInt();
 
-        System.out.println("==============================");
+        int [][] nilai = new int[mhs][matkul];
+
+        System.out.println("============================");
         for (int i = 0; i < nilai.length; i++) {
             System.out.println("Nilai mahasiswa ke-" + (i+1));
             double totalpersiswa = 0;
@@ -17,18 +25,18 @@ public class Siakad04 {
                 nilai[i][j] = input.nextInt();
                 totalpersiswa += nilai[i][j];
             }
-            System.out.println("Rata-rata nilai mahasiswa: " + (totalpersiswa / 3));
+            System.out.println("Rata-rata nilai mahasiswa: " + (totalpersiswa / matkul));
         }
-        System.out.println("==============================");
+        System.out.println("============================");
         System.out.println("Rata-rata nilai setiap mata kuliah");
 
-        for (int j = 0; j < 3; j++) {
+        for (int j = 0; j < nilai.length; j++) {
             double totalpermatkul = 0;
 
-            for (int i = 0; i < 4; i++) {
+            for (int i = 0; i < nilai.length; i++) {
                 totalpermatkul += nilai[i][j];
             }
-            System.out.println("mata kuliah ke-" + (j+1) + " : " + (totalpermatkul / 4));
+            System.out.println("mata kuliah ke-" + (j+1) + " : " + (totalpermatkul / mhs));
         }
     }
 }
