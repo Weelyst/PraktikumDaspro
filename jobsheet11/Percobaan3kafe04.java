@@ -21,9 +21,9 @@ public class Percobaan3kafe04 {
 
         
     if (kodePromo.equals("DISKON50")){
-        System.out.println("Anda mendapatkan diskon 50%! 🎉");
+        System.out.println("Anda mendapatkan diskon 50%! ");
     } else if (kodePromo.equals("DISKON30")){
-        System.out.println("Anda mendapatkan diskon 30%! 🥳");
+        System.out.println("Anda mendapatkan diskon 30%! ");
     } else {
         System.out.println("Kode promo invalid atau tidak digunakan.");
     }
@@ -51,7 +51,27 @@ public class Percobaan3kafe04 {
 
     }
     public static void main(String[] args) {
-        Menu("Andi", true, "NONPROMO" );
+        Scanner sc = new Scanner(System.in);
+
+       System.out.println("------------------------------");
+       String nama1 = "Arthur";
+        boolean member1 = true;
+        String promo1 = "DISKON50";
+        
+        Menu(nama1, member1, promo1); 
+        
+        System.out.println("------------------------------");
+        System.out.print("\n Masukkan nomor menu yang dipilih : ");
+        int pilihanmenu = sc.nextInt();
+
+        System.out.print(" Masukkan banyak item yang dibeli : ");
+        int banyakitem = sc.nextInt();
+
+        int totalharga = hitungTotalHarga04(pilihanmenu, banyakitem);
+
+        System.out.println(" Total harga yang harus dibayar (sebelum diskon): Rp " + totalharga);
+        
+        sc.close();
     }
 }
 
