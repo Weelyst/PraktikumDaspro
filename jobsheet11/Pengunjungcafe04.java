@@ -8,6 +8,11 @@ public class Pengunjungcafe04{
         for(int i = 0; i< namaPengunjung.length; i++){
             System.out.println("- "+namaPengunjung[i]);
         }
+         System.out.println("for each:");
+        for(String nama : namaPengunjung){ 
+            System.out.println("- " + nama);
+        }
+        System.out.println();
     }
 
         public static void main(String[] args){
