@@ -18,7 +18,7 @@ public class Percobaan3kafe04 {
         double diskon = 0; 
         double jumlahDiskonRupiah = 0;
         
-        System.out.println("\n[PROMO APLIKASI]");
+        System.out.println("\n[DISKON APLIKASI]");
 
          if (kodePromo.equals("DISKON50")) {
             diskon = 0.50; 
@@ -30,7 +30,7 @@ public class Percobaan3kafe04 {
             jumlahDiskonRupiah = totalHargaAwal * diskon;
             System.out.println("Kode Promo: DISKON30 - Diskon 30% Diterapkan!");
             System.out.println("Diskon yang Anda dapatkan: Rp " + (int)jumlahDiskonRupiah);
-        } else {
+        } else if (!kodePromo.isEmpty()) {
             System.out.println("Kode promo '" + kodePromo + "' tidak valid. Tidak ada pengurangan harga.");
         }
          int totalHargaAkhir = totalHargaAwal - (int)jumlahDiskonRupiah;
@@ -75,6 +75,7 @@ public class Percobaan3kafe04 {
        String namaPelanggan = "Arthur";
         boolean isMember = true;
         String kodePromoPelanggan = "DISKON50";
+        char TambahLagi;
         
         Menu(namaPelanggan, isMember, kodePromoPelanggan); 
         
